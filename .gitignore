@@ -1,0 +1,69 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Credentials and API keys
+*.json
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Cache files
+.cache/
+*.mypy_cache/
+*.pytest_cache/
+*.pyo
+*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Docker files
+*.dockerignore
+
+# Ignore Python wheels
+*.whl
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore requirements files for pip-tools
+requirements*.txt
+
+# Ignore data files (if applicable)
+data/
