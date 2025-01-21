@@ -147,7 +147,7 @@ import gspread
 from gspread_dataframe import set_with_dataframe
 
 gc = gspread.service_account(filename='ubs-whatsapp-data-push-c191e1cd21aa.json')
-spreadsheet = gc.open("UBS Prototype")
+spreadsheet = gc.open("UBS | Backend")
 
 def append_to_sheets(dataframes, subsheet_names):
     # Append each DataFrame to the corresponding subsheet
