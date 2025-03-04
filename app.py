@@ -99,10 +99,10 @@ for search_word in search_words:
         
         if search == 1:
             sd_df = df3.copy()
-            df3.to_csv(f'{search_word}.csv', header=False, index=False)
+            # df3.to_csv(f'{search_word}.csv', header=False, index=False)
         else:
             sd_pitch_df = df3.copy()
-            df3.to_csv(f'{search_word} Pitch.csv', header=False, index=False)
+            # df3.to_csv(f'{search_word} Pitch.csv', header=False, index=False)
     elif search_word == "LDI":
         df2 = df.copy()
         df2.drop(["Time", "Date"], axis="columns", inplace=True)
@@ -121,7 +121,7 @@ for search_word in search_words:
         print(f"Count: {df3.shape[0]}")
 
         ldi_df = df3.copy()
-        df3.to_csv(f'{search_word}.csv', header=False, index=False)
+        # df3.to_csv(f'{search_word}.csv', header=False, index=False)
     elif search_word == "gratitude":
         df2 = df.copy()
         df2.drop(["Time", "Date"], axis="columns", inplace=True)
@@ -140,7 +140,7 @@ for search_word in search_words:
         print(f"Count: {df3.shape[0]}")
 
         gratitude_df = df3.copy()
-        df3.to_csv(f'{search_word}.csv', header=False, index=False)
+        # df3.to_csv(f'{search_word}.csv', header=False, index=False)
 
 
 import gspread
