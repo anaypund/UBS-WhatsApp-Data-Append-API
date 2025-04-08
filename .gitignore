@@ -62,8 +62,5 @@ coverage.xml
 Pipfile
 Pipfile.lock
 
-# Ignore requirements files for pip-tools
-requirements*.txt
-
 # Ignore data files (if applicable)
 data/
